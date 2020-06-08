@@ -30,11 +30,6 @@ public class Login {
         this.password = password;
     }
 
-    @Override
-    public String toString() {
-        return "{" +
-                "login='" + login + '\'' +
-                ", password='" + password + '\'' +
-                '}';
-    }
+
+
 }

@@ -41,12 +41,5 @@ public class Token {
         this.tokenType = tokenType;
     }
 
-    @Override
-    public String toString() {
-        return "{" +
-                "accessToken='" + accessToken + '\'' +
-                ", expiresIn=" + expiresIn +
-                ", tokenType='" + tokenType + '\'' +
-                '}';
-    }
+
 }

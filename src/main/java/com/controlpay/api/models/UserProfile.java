@@ -75,15 +75,5 @@ public class UserProfile {
     }
 
 
-    @Override
-    public String toString() {
-        return "{" +
-                "firstname='" + firstname + '\'' +
-                ", lastname='" + lastname + '\'' +
-                ", email='" + email + '\'' +
-                ", age=" + age +
-                ", profilePicture='" + profilePicture + '\'' +
-                ", userRole='" + userRole + '\'' +
-                '}';
-    }
+
 }
