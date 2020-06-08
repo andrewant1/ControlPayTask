@@ -17,6 +17,10 @@ public class UserProfile {
     @JsonProperty("userRole")
     private String userRole;
 
+    public UserProfile(){
+        super();
+    }
+
     public UserProfile(String firstname, String lastname, String email, int age, String profilePicture, String userRole) {
         this.firstname = firstname;
         this.lastname = lastname;

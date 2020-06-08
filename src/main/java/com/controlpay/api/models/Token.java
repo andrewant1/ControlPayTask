@@ -11,6 +11,10 @@ public class Token {
     @JsonProperty("token_type")
     private String tokenType;
 
+    public  Token(){
+        super();
+    }
+
     public Token(String accessToken, int expiresIn, String tokenType) {
         this.accessToken = accessToken;
         this.expiresIn = expiresIn;

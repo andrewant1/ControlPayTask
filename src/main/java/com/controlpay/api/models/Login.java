@@ -9,6 +9,10 @@ public class Login {
     private String password;
 
 
+     public  Login(){
+         super();
+     }
+
     public Login(String login, String password) {
         this.login = login;
         this.password = password;
