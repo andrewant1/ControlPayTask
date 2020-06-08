@@ -32,8 +32,7 @@ public class APITests extends ApiConfiguration  {
                 .body(login)
                 .when()
                 .post("/token")
-                .then()
-                .statusCode(200).toString();
+                .asString();
         try {
             tokenContainer = mapper.readValue(response, Token.class);
         } catch (JsonProcessingException e) {
@@ -61,7 +60,7 @@ public class APITests extends ApiConfiguration  {
         .header("Authorization", token+tokenType)
         .when()
         .get("/profile")
-        .then().statusCode(200).toString();
+        .asString();
 
         try {
             userProfileContainer = mapper.readValue(profileResponse, UserProfile.class);
