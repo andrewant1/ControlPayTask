@@ -43,7 +43,7 @@ public class Token {
 
     @Override
     public String toString() {
-        return "Token{" +
+        return "{" +
                 "accessToken='" + accessToken + '\'' +
                 ", expiresIn=" + expiresIn +
                 ", tokenType='" + tokenType + '\'' +

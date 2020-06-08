@@ -77,7 +77,7 @@ public class UserProfile {
 
     @Override
     public String toString() {
-        return "UserProfile{" +
+        return "{" +
                 "firstname='" + firstname + '\'' +
                 ", lastname='" + lastname + '\'' +
                 ", email='" + email + '\'' +
