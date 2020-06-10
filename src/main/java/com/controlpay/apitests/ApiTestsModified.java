@@ -11,7 +11,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
-import static com.controlpay.apitests.APITests.userProfileContainer;
+
 
 
 public class ApiTestsModified {
